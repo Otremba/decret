@@ -6,10 +6,28 @@ header{
   width: 100%;
   height: 50px;
   background-color: black;
-  text-align: left;
-  padding-left: 130px;
-  font-size: 30px;
-  font-family: 'Permanent Marker', cursive;
+
   color: white;
   /* padding-top: 5px; */
+}
+.menu{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  /* background-color: red; */
+  float: left;
+}
+.logo{
+  width: auto;
+  text-align: left;
+  margin-left: 130px;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+  float: left;
+}
+.postar{
+  width: 60px;
+  height: 50px;
+  /* background-color: green; */
+  float: right;
 }

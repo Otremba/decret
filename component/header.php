@@ -16,5 +16,17 @@
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.js"></script>
     <header class="blue-text">
-      <a href="../index.php">DECRET</a>
+      <!-- <a href="#">
+        <div class="menu">
+          <i class="medium material-icons">menu</i>
+        </div>
+      </a> -->
+      <div class="logo">
+        <a href="index.php">DECRET</a>
+      </div>
+      <a href="#">
+        <div class="postar">
+          <i class="medium material-icons">add</i>
+        </div>
+      </a>
     </header>
