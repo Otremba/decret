@@ -3,25 +3,21 @@
   <div class="time_line">
     <div class="post">
       <img src="img/login2.jpg" alt="">
-      <div class="opaco">
-        <div class="texto_post">
-          Olá meu nome é josé
-        </div>
         <div class="curtir blue">
-          <i class="small material-icons">favorite</i>
+          <a href="#"><i class="small material-icons black-text">favorite</i></a>
         </div>
-      </div>
+    </div>
+    <div class="texto_post white-text">
+      Olá meu nome é josé
     </div>
     <div class="post">
-      <img src="img/login2.jpg" alt="">
-      <div class="opaco">
-        <div class="texto_post">
-          Olá meu nome é josé
-        </div>
+      <img src="img/login1.jpg" alt="">
         <div class="curtir blue">
-          <i class="small material-icons ">favorite</i>
+          <a href="#"><i class="small material-icons black-text">favorite</i></a>
         </div>
-      </div>
+    </div>
+    <div class="texto_post white-text">
+        Caraca maluko fiquei sabendo que a Fernanda do 7°b está ficando com o Felipe
     </div>
   </div>
 </div>

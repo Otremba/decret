@@ -29,5 +29,6 @@ header{
   width: 60px;
   height: 50px;
   /* background-color: green; */
-  float: right;
+  /* float: right; */
+  position: absolute;
 }
