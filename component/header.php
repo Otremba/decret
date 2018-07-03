@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>DECRET</title>
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/time_line.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
