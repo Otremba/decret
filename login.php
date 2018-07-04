@@ -18,7 +18,14 @@ if(isset($_POST["btnLogin"]))
     // echo ($autentica['contador']);
     // echo ($sql);
     if($autentica['contador'] >0){
-        header('location:time_line.php');
+
+      $select = mysql_query($sql);
+
+        $rsUsuario = mysql_fetch_array($select);
+
+        $_SESSION['ativo'] = $rsUsuario['ativo'];
+
+        header('location:time_line/');
     }else{
     ?>
     <script>

@@ -1,14 +1,16 @@
 <?php
-require_once("component/Imagem_class.php");
-require_once("database/conect.php");
+session_start();
+require_once("../component/Imagem_class.php");
+require_once("../database/conect.php");
 Conexao_db();
+$ativo = $_SESSION['ativo'];
 
 if(isset($_POST["btnSalvar"]))
 {
   $texto=$_POST["txtTexto"];
 
     // Instância um objeto imagem e o popula com a imagem vinda do form
-      $imagem = new Imagem($_FILES['myPhoto'], 'img_publicacoes/');
+      $imagem = new Imagem($_FILES['myPhoto'], '../img_publicacoes/');
 
       $imagemPic = $imagem->salvarImagem($imagem);
 
@@ -25,7 +27,7 @@ if(isset($_POST["btnSalvar"]))
 
 }
 
-require_once("component/header.php");
+require_once("../component/header.php");
  ?>
  <form name="frmTimeLine" method="POST" enctype="multipart/form-data" action="time_line.php">
     <div class="container_time_line">
