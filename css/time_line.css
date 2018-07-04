@@ -53,8 +53,33 @@ body{
 }
 .postar11{
   width: 100%;
+  height: auto;
+  background: white;
+}
+.foto{
+  width: 27%;
+  float: left;
+}
+.texto{
+  width: 72%;
+  float: left;
+}
+.input_botao{
+  width: 100%;
+  margin-top: 13px;
+  border: none;
+  border: 1px solid black;
+}
+#uploadPreview{
+  width: 150px;
   height: 150px;
-  background: red;
+  float: left;
+  /* margin-left: 150px; */
+  /* margin-right: auto; */
+  /* background-color: green; */
+}
+#uploadImage{
+  display: none;
 }
 .post{
   display: block;
@@ -83,5 +108,14 @@ body{
   text-decoration: none;
 }
 @media screen and (max-width: 600px) {
-
+  .foto{
+    width: 200px;
+    float: left;
+    margin-left: 30%;
+  }
+  .texto{
+    margin-left: 22%;
+    width: 230px;
+    float: left;
+  }
 }
